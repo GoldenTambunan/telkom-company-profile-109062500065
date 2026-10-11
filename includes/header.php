@@ -29,7 +29,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
                 </a>
                 <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>"
                    href="profile.php">
-                    Tentang Kampus
+                    Tentang Kami
                 </a>
                 <a class="<?= $currentPage === 'programs.php' ? 'active' : '' ?>"
                    href="programs.php">
